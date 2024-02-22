@@ -10,14 +10,14 @@ misc_txt, broadcast_txt, checker_txt, devs_txt, instagram_txt)
 start_txt = """
 **ʜᴇʟʟᴏ** {} 
 
-**ɪ ᴀᴍ ᴄʜɪᴢᴜʀᴜ, ʏᴏᴜʀ ᴍᴜsɪᴄ ᴠɪʀᴛᴜᴏsᴏ! ɪᴍᴍᴇʀsᴇ ʏᴏᴜʀsᴇʟғ ɪɴ ғʟᴀᴡʟᴇss ʙᴇᴀᴛs ᴡɪᴛʜ ᴢᴇʀᴏ ʟᴀɢ – ɪ'ᴍ ɴᴏᴛ ᴊᴜsᴛ ᴀ ᴍᴜsɪᴄ ʙᴏᴛ; ɪ'ᴍ ᴛʜᴇ sʏᴍᴘʜᴏɴʏ ᴏғ ᴛʜᴇ ғᴜᴛᴜʀᴇ, ᴛᴀɪʟᴏʀᴇᴅ ғᴏʀ ʏᴏᴜʀ ᴍᴜsɪᴄᴀʟ ʙʟɪss.**
+**ɪ ᴀᴍ ʟᴠʏ, ʏᴏᴜʀ ᴍᴜsɪᴄ ᴠɪʀᴛᴜᴏsᴏ! ɪᴍᴍᴇʀsᴇ ʏᴏᴜʀsᴇʟғ ɪɴ ғʟᴀᴡʟᴇss ʙᴇᴀᴛs ᴡɪᴛʜ ᴢᴇʀᴏ ʟᴀɢ – ɪ'ᴍ ɴᴏᴛ ᴊᴜsᴛ ᴀ ᴍᴜsɪᴄ ʙᴏᴛ; ɪ'ᴍ ᴛʜᴇ sʏᴍᴘʜᴏɴʏ ᴏғ ᴛʜᴇ ғᴜᴛᴜʀᴇ, ᴛᴀɪʟᴏʀᴇᴅ ғᴏʀ ʏᴏᴜʀ ᴍᴜsɪᴄᴀʟ ʙʟɪss.**
 """
 
 # ------------------------------------------------------------------------------- #
 
 button = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),    
+            InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),    
         ],
         [
             InlineKeyboardButton("↯ ᴄᴏᴍᴍᴀɴᴅs ↯", callback_data="help_"),    
@@ -80,7 +80,7 @@ async def cb_handler(client, query):
     if query.data=="home_":
         buttons =  [
             [
-                InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
                 InlineKeyboardButton("↯ ᴄᴏᴍᴍᴀɴᴅs ↯", callback_data="help_")
